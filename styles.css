@@ -1,0 +1,164 @@
+/* Global styles */
+body {
+    background-color: #333333;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Styles for the buttons */
+.left-buttons {
+    float: left;
+    border-radius: 5px;
+    background-color: #44a17e;
+    margin-right: 10px;
+}
+
+.left-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.right-buttons {
+    float: right;
+    border-radius: 5px;
+    background-color: #ff7f7f;
+    margin-left: 10px;
+}
+
+.right-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Common header styles */
+header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    overflow: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-buttons,
+.right-buttons {
+    display: flex;
+    align-items: center;
+}
+
+/* Common logo styles */
+.logo-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 2in;
+    height: 2in;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Specific page styles */
+
+/* Home page */
+.home-page {
+    text-align: center;
+}
+
+/* Product Catalog page */
+.product-catalog-page {
+    background-color: #ddd;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #96D0B1;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ccffcc;
+}
+
+/* Login page */
+.login-page {
+    text-align: center;
+}
+
+/* Registration page */
+.registration-page {
+    text-align: center;
+}
+
+/* Cart page */
+.cart-page {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.cart-total {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #ff7f7f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: arial, sans-serif;
+}
+
+.button:hover {
+    background-color: #ff5f5f;
+}
+
+.logout-button {
+    background-color: #ff7f7f;
+    margin-left: 10px;
+}
+
+.logout-button:hover {
+    background-color: #ff5f5f;
+}
+
+/* Welcome box styles */
+.welcome-box {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
